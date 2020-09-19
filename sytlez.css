@@ -1,0 +1,73 @@
+body.html{
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+}
+
+body{
+	background-color: rgb(40,0,0);
+	    font-family: 'Indie Flower', cursive;
+
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.container{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+
+}
+.container h1{
+	color: #fff;
+	font-size: 50px;
+	margin: 20px;
+	letter-spacing: 10px;
+}
+
+.container h2{
+	color: rgb(181,160,115);
+	font-size: 40px;
+	margin: 0px;
+	letter-spacing: 10px;
+}
+
+.container h3{
+	color: #fff;
+	font-size: 20px;
+	margin: 20px;
+	letter-spacing: 3px;
+
+}
+
+.count{
+	margin: 40px 0 ;
+	color:rgb(181,160,115);
+}
+
+.countd{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border:2px solid;
+	margin: 0 30px;
+	font-size: 12px;
+	border-radius: 50%;
+	overflow: hidden;
+
+
+}
+
+.countd span{
+	display: block;
+	margin: 7px;
+	font-size: 26px;
+}
+
+
